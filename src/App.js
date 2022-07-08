@@ -34,7 +34,7 @@ const App = () => {
     return (
       <div className="row container m-auto  col-10">
         <Header />
-        <div className="mainDiv row m-auto d-flex ">
+        <div className="mainDiv row m-auto d-flex">
           <Nav btnInfo={info} setValue={setValue} value={value}/>
           <Experience info={info[value]} />
         </div>

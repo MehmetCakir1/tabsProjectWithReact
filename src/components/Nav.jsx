@@ -8,7 +8,7 @@ console.log(btnInfo);
             btnInfo.map((btn,index)=>{
                 console.log(index);
                 return(
-                        <button className={`border-0 px-2 m-2 fs-4 fw-bold text-primary ${index === value && 'activeBtn'}`} key={btn.id} onClick={()=>setValue(index)}>{btn.company}</button>
+                        <button className={`border-0 px-2 m-2 fs-4 fw-bold bg-white text-primary ${index === value && 'activeBtn'}`} key={btn.id} onClick={()=>setValue(index)}>{btn.company}</button>
                                     )
             })
         }
