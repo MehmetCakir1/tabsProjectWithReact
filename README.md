@@ -5,4 +5,4 @@
 - __Axios__ <br>
 - __Bootstrap5__<br>
 
-<div align="center"><img src="https://github.com/MehmetCakir1/menuProjectWithReact/blob/master/menuProject.gif"</div>
+<div align="center"><img src="https://github.com/MehmetCakir1/tabsProjectWithReact/blob/master/tabsProject.gif"</div>
