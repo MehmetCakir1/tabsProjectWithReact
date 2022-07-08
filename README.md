@@ -1,4 +1,4 @@
-[Click here to seethe project](https://tabs-project-with-react.vercel.app/)
+[Click here to see the project](https://tabs-project-with-react.vercel.app/)
 <br>
 - __React Hooks__ <br>
 - __Props/States/Components__<br>
