@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.underLine{
+  width: 8rem;
+  padding: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mainDiv{
+  position: relative;
+}
+.navDİv{
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.company{
+  background-color: rgba(220, 53, 69, 0.5);
+}
+.navDiv button{
+  transition: all 0.4s ease-in;
+}
+
+.navDiv button:hover{
+  border-bottom:3px solid rgb(220, 53, 69) !important;
+  color: rgb(220, 53, 69) !important;
+}
+
+.activeBtn{
+  color: rgb(220, 53, 69) !important;
+  border-bottom:3px solid rgb(220, 53, 69) !important;
+}
+
+@media (min-width: 992px) {
+  .navDiv button{
+    width: 8rem !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navDiv button:hover{
+    border-bottom: none !important;
+    border-left:3px solid rgb(220, 53, 69) !important;
   }
-  to {
-    transform: rotate(360deg);
+  .activeBtn{
+    border-left:3px solid rgb(220, 53, 69) !important;
+    border-bottom:none !important;
   }
 }
